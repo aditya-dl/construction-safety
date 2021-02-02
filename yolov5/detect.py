@@ -3,7 +3,7 @@ import cv2
 import torch
 
 def load_model(weights='yolov5/weights/last.pt'):
-    return torch.hub.load('ultralytics/yolov5', 'custom'
+    return torch.hub.load('ultralytics/yolov5', 'custom',
     path_or_model=weights)
 
 def read_image(path):
