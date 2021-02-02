@@ -14,7 +14,7 @@ def inference(model, image, size=640):
 
 if __name__ == "__main__":
     image_path = "construction-safety/images/test1.jpg"
-    model_path = 'yolov5/weights/last.pt'
+    model_path = 'construction-safety/yolov5/weights/last.pt'
 
     model = load_model(model_path)
     image = read_image(image_path)
